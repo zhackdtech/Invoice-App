@@ -43,18 +43,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pnlError = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.pnlStats1 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
-            this.pnlStats2 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.cartesianChart2 = new LiveCharts.WinForms.CartesianChart();
-            this.pnlStats3 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.cartesianChart3 = new LiveCharts.WinForms.CartesianChart();
             this.bnfElipseMainform = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnlLeft = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
@@ -68,23 +56,6 @@
             this.pnlTopShadow = new System.Windows.Forms.Panel();
             this.bnfDragSidePanel = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bnfDragTopPanel = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlCard = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.visa = new System.Windows.Forms.Panel();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.pnlInvestments = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.bnfElipsePanel = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -94,10 +65,20 @@
             this.bunifuElipse6 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse7 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse8 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlCard = new System.Windows.Forms.Panel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
             this.customButton3 = new Invoice_App.Usercontrols.CustomButton();
             this.customButton2 = new Invoice_App.Usercontrols.CustomButton();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.visa = new System.Windows.Forms.Panel();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pnlInvestments = new System.Windows.Forms.Panel();
             this.pnlInvest4 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.label27 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -110,13 +91,34 @@
             this.pnlInvest1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.label24 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.bunifuGradientPanel4 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.bunifuGradientPanel3 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.pnlStats3 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.cartesianChart3 = new LiveCharts.WinForms.CartesianChart();
+            this.pnlStats2 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.cartesianChart2 = new LiveCharts.WinForms.CartesianChart();
+            this.pnlStats1 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             this.btnMail = new Invoice_App.Usercontrols.CustomButton();
             this.customButton1 = new Invoice_App.Usercontrols.CustomButton();
             this.btnNotifications = new Invoice_App.Usercontrols.CustomButton();
@@ -130,8 +132,6 @@
             this.btnDashboard = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
             bnfRightPanelUserPanel = new Bunifu.Framework.UI.BunifuElipse(this.components);
             bnfElipsePnlMessagesNew = new Bunifu.Framework.UI.BunifuElipse(this.components);
             bnfElipsePnlErrorTransactionsError = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -141,18 +141,14 @@
             this.pnlRightPanelUSerPanel.SuspendLayout();
             this.pnlMessageNew.SuspendLayout();
             this.pnlError.SuspendLayout();
-            this.pnlStats1.SuspendLayout();
-            this.pnlStats2.SuspendLayout();
-            this.pnlStats3.SuspendLayout();
             this.pnlLeft.SuspendLayout();
             this.pnlTop.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlCard.SuspendLayout();
             this.visa.SuspendLayout();
-            this.pnlInvestments.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.pnlInvestments.SuspendLayout();
             this.pnlInvest4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.pnlInvest2.SuspendLayout();
@@ -161,8 +157,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.pnlInvest1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.pnlStats3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.pnlStats2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.pnlStats1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -262,144 +262,15 @@
             bnfElipsePnlStats1.ElipseRadius = 35;
             bnfElipsePnlStats1.TargetControl = this.pnlStats1;
             // 
-            // pnlStats1
-            // 
-            this.pnlStats1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.pnlStats1.Controls.Add(this.label11);
-            this.pnlStats1.Controls.Add(this.label10);
-            this.pnlStats1.Controls.Add(this.pictureBox4);
-            this.pnlStats1.Controls.Add(this.cartesianChart1);
-            this.pnlStats1.Location = new System.Drawing.Point(50, 83);
-            this.pnlStats1.Name = "pnlStats1";
-            this.pnlStats1.Size = new System.Drawing.Size(269, 185);
-            this.pnlStats1.TabIndex = 5;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
-            this.label11.Location = new System.Drawing.Point(68, 46);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(74, 14);
-            this.label11.TabIndex = 7;
-            this.label11.Text = "Sent invoice";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(63, 10);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(98, 38);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "6,602";
-            // 
-            // cartesianChart1
-            // 
-            this.cartesianChart1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.cartesianChart1.Location = new System.Drawing.Point(0, 83);
-            this.cartesianChart1.Name = "cartesianChart1";
-            this.cartesianChart1.Size = new System.Drawing.Size(269, 102);
-            this.cartesianChart1.TabIndex = 0;
-            this.cartesianChart1.Text = "cartesianChart1";
-            // 
             // bnfElipsePnlStats2
             // 
             bnfElipsePnlStats2.ElipseRadius = 35;
             bnfElipsePnlStats2.TargetControl = this.pnlStats2;
             // 
-            // pnlStats2
-            // 
-            this.pnlStats2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.pnlStats2.Controls.Add(this.label12);
-            this.pnlStats2.Controls.Add(this.label13);
-            this.pnlStats2.Controls.Add(this.pictureBox5);
-            this.pnlStats2.Controls.Add(this.cartesianChart2);
-            this.pnlStats2.Location = new System.Drawing.Point(388, 83);
-            this.pnlStats2.Name = "pnlStats2";
-            this.pnlStats2.Size = new System.Drawing.Size(269, 185);
-            this.pnlStats2.TabIndex = 4;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
-            this.label12.Location = new System.Drawing.Point(68, 41);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(72, 14);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "Paid invoice";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(63, 5);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(98, 38);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "6,192";
-            // 
-            // cartesianChart2
-            // 
-            this.cartesianChart2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.cartesianChart2.Location = new System.Drawing.Point(0, 83);
-            this.cartesianChart2.Name = "cartesianChart2";
-            this.cartesianChart2.Size = new System.Drawing.Size(269, 102);
-            this.cartesianChart2.TabIndex = 8;
-            this.cartesianChart2.Text = "cartesianChart2";
-            // 
             // bnfElipsePnlStats3
             // 
             bnfElipsePnlStats3.ElipseRadius = 35;
             bnfElipsePnlStats3.TargetControl = this.pnlStats3;
-            // 
-            // pnlStats3
-            // 
-            this.pnlStats3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.pnlStats3.Controls.Add(this.label14);
-            this.pnlStats3.Controls.Add(this.label15);
-            this.pnlStats3.Controls.Add(this.pictureBox6);
-            this.pnlStats3.Controls.Add(this.cartesianChart3);
-            this.pnlStats3.Location = new System.Drawing.Point(726, 83);
-            this.pnlStats3.Name = "pnlStats3";
-            this.pnlStats3.Size = new System.Drawing.Size(269, 185);
-            this.pnlStats3.TabIndex = 3;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
-            this.label14.Location = new System.Drawing.Point(68, 41);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(86, 14);
-            this.label14.TabIndex = 11;
-            this.label14.Text = "Unpaid invoice";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(63, 5);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(98, 38);
-            this.label15.TabIndex = 10;
-            this.label15.Text = "6,496";
-            // 
-            // cartesianChart3
-            // 
-            this.cartesianChart3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.cartesianChart3.Location = new System.Drawing.Point(0, 83);
-            this.cartesianChart3.Name = "cartesianChart3";
-            this.cartesianChart3.Size = new System.Drawing.Size(269, 102);
-            this.cartesianChart3.TabIndex = 8;
-            this.cartesianChart3.Text = "cartesianChart3";
             // 
             // bnfElipseMainform
             // 
@@ -544,8 +415,54 @@
             this.bnfDragTopPanel.TargetControl = this.pnlTop;
             this.bnfDragTopPanel.Vertical = true;
             // 
+            // bnfElipsePanel
+            // 
+            this.bnfElipsePanel.ElipseRadius = 35;
+            this.bnfElipsePanel.TargetControl = this.pnlInvestments;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 35;
+            this.bunifuElipse1.TargetControl = this.pnlInvest2;
+            // 
+            // bunifuElipse2
+            // 
+            this.bunifuElipse2.ElipseRadius = 35;
+            this.bunifuElipse2.TargetControl = this.pnlInvest1;
+            // 
+            // bunifuElipse3
+            // 
+            this.bunifuElipse3.ElipseRadius = 35;
+            this.bunifuElipse3.TargetControl = this.pnlInvest3;
+            // 
+            // bunifuElipse4
+            // 
+            this.bunifuElipse4.ElipseRadius = 35;
+            this.bunifuElipse4.TargetControl = this.pnlInvest4;
+            // 
+            // bunifuElipse5
+            // 
+            this.bunifuElipse5.ElipseRadius = 35;
+            this.bunifuElipse5.TargetControl = this.pnlCard;
+            // 
+            // bunifuElipse6
+            // 
+            this.bunifuElipse6.ElipseRadius = 35;
+            this.bunifuElipse6.TargetControl = this.visa;
+            // 
+            // bunifuElipse7
+            // 
+            this.bunifuElipse7.ElipseRadius = 35;
+            this.bunifuElipse7.TargetControl = this.customButton2;
+            // 
+            // bunifuElipse8
+            // 
+            this.bunifuElipse8.ElipseRadius = 35;
+            this.bunifuElipse8.TargetControl = this.customButton3;
+            // 
             // panel1
             // 
+            this.panel1.BackgroundImage = global::Invoice_App.Properties.Resources.footer;
             this.panel1.Controls.Add(this.pnlCard);
             this.panel1.Controls.Add(this.pnlInvestments);
             this.panel1.Controls.Add(this.pnlStats3);
@@ -570,6 +487,66 @@
             this.pnlCard.Name = "pnlCard";
             this.pnlCard.Size = new System.Drawing.Size(269, 346);
             this.pnlCard.TabIndex = 7;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Roboto Black", 9.25F, System.Drawing.FontStyle.Bold);
+            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.label32.Location = new System.Drawing.Point(168, 314);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(50, 15);
+            this.label32.TabIndex = 6;
+            this.label32.Text = "History";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Roboto Black", 9.25F, System.Drawing.FontStyle.Bold);
+            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.label31.Location = new System.Drawing.Point(31, 314);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(81, 15);
+            this.label31.TabIndex = 6;
+            this.label31.Text = "Send  money";
+            // 
+            // customButton3
+            // 
+            this.customButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(170)))), ((int)(((byte)(43)))));
+            this.customButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(170)))), ((int)(((byte)(43)))));
+            this.customButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.customButton3.BorderRadius = 10;
+            this.customButton3.BorderSize = 0;
+            this.customButton3.FlatAppearance.BorderSize = 0;
+            this.customButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customButton3.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customButton3.ForeColor = System.Drawing.Color.White;
+            this.customButton3.Image = global::Invoice_App.Properties.Resources.order_history_24px;
+            this.customButton3.Location = new System.Drawing.Point(167, 258);
+            this.customButton3.Name = "customButton3";
+            this.customButton3.Size = new System.Drawing.Size(53, 53);
+            this.customButton3.TabIndex = 5;
+            this.customButton3.TextColor = System.Drawing.Color.White;
+            this.customButton3.UseVisualStyleBackColor = false;
+            // 
+            // customButton2
+            // 
+            this.customButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(61)))));
+            this.customButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(61)))));
+            this.customButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.customButton2.BorderRadius = 10;
+            this.customButton2.BorderSize = 0;
+            this.customButton2.FlatAppearance.BorderSize = 0;
+            this.customButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customButton2.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customButton2.ForeColor = System.Drawing.Color.White;
+            this.customButton2.Image = global::Invoice_App.Properties.Resources.initiate_money_transfer_24px;
+            this.customButton2.Location = new System.Drawing.Point(42, 258);
+            this.customButton2.Name = "customButton2";
+            this.customButton2.Size = new System.Drawing.Size(53, 53);
+            this.customButton2.TabIndex = 5;
+            this.customButton2.TextColor = System.Drawing.Color.White;
+            this.customButton2.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -626,210 +603,6 @@
             this.label28.TabIndex = 9;
             this.label28.Text = "$ 6,602.01";
             // 
-            // pnlInvestments
-            // 
-            this.pnlInvestments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.pnlInvestments.Controls.Add(this.pnlInvest4);
-            this.pnlInvestments.Controls.Add(this.pnlInvest2);
-            this.pnlInvestments.Controls.Add(this.pnlInvest3);
-            this.pnlInvestments.Controls.Add(this.pnlInvest1);
-            this.pnlInvestments.Controls.Add(this.panel2);
-            this.pnlInvestments.Location = new System.Drawing.Point(50, 289);
-            this.pnlInvestments.Name = "pnlInvestments";
-            this.pnlInvestments.Size = new System.Drawing.Size(608, 346);
-            this.pnlInvestments.TabIndex = 6;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label23);
-            this.panel2.Controls.Add(this.label22);
-            this.panel2.Controls.Add(this.label21);
-            this.panel2.Controls.Add(this.label20);
-            this.panel2.Controls.Add(this.label19);
-            this.panel2.Controls.Add(this.label18);
-            this.panel2.Controls.Add(this.label17);
-            this.panel2.Controls.Add(this.label16);
-            this.panel2.Controls.Add(this.bunifuGradientPanel4);
-            this.panel2.Controls.Add(this.bunifuGradientPanel3);
-            this.panel2.Controls.Add(this.bunifuGradientPanel2);
-            this.panel2.Controls.Add(this.bunifuGradientPanel1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(304, 346);
-            this.panel2.TabIndex = 0;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(34, 296);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(148, 23);
-            this.label23.TabIndex = 7;
-            this.label23.Text = "$9,800/$10,000";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(34, 215);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(148, 23);
-            this.label22.TabIndex = 7;
-            this.label22.Text = "$4,450/$10,000";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(33, 134);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(148, 23);
-            this.label21.TabIndex = 7;
-            this.label21.Text = "$7,802/$10,000";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(34, 53);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(148, 23);
-            this.label20.TabIndex = 7;
-            this.label20.Text = "$6,602/$10,000";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Bold);
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
-            this.label19.Location = new System.Drawing.Point(34, 269);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(46, 16);
-            this.label19.TabIndex = 4;
-            this.label19.Text = "Item 4";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Bold);
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
-            this.label18.Location = new System.Drawing.Point(34, 188);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(46, 16);
-            this.label18.TabIndex = 4;
-            this.label18.Text = "Item 3";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Bold);
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
-            this.label17.Location = new System.Drawing.Point(34, 107);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(46, 16);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "Item 2";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Bold);
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
-            this.label16.Location = new System.Drawing.Point(35, 26);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(46, 16);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "Item 1";
-            // 
-            // bnfElipsePanel
-            // 
-            this.bnfElipsePanel.ElipseRadius = 35;
-            this.bnfElipsePanel.TargetControl = this.pnlInvestments;
-            // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 35;
-            this.bunifuElipse1.TargetControl = this.pnlInvest2;
-            // 
-            // bunifuElipse2
-            // 
-            this.bunifuElipse2.ElipseRadius = 35;
-            this.bunifuElipse2.TargetControl = this.pnlInvest1;
-            // 
-            // bunifuElipse3
-            // 
-            this.bunifuElipse3.ElipseRadius = 35;
-            this.bunifuElipse3.TargetControl = this.pnlInvest3;
-            // 
-            // bunifuElipse4
-            // 
-            this.bunifuElipse4.ElipseRadius = 35;
-            this.bunifuElipse4.TargetControl = this.pnlInvest4;
-            // 
-            // bunifuElipse5
-            // 
-            this.bunifuElipse5.ElipseRadius = 35;
-            this.bunifuElipse5.TargetControl = this.pnlCard;
-            // 
-            // bunifuElipse6
-            // 
-            this.bunifuElipse6.ElipseRadius = 35;
-            this.bunifuElipse6.TargetControl = this.visa;
-            // 
-            // bunifuElipse7
-            // 
-            this.bunifuElipse7.ElipseRadius = 35;
-            this.bunifuElipse7.TargetControl = this.customButton2;
-            // 
-            // bunifuElipse8
-            // 
-            this.bunifuElipse8.ElipseRadius = 35;
-            this.bunifuElipse8.TargetControl = this.customButton3;
-            // 
-            // customButton3
-            // 
-            this.customButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(170)))), ((int)(((byte)(43)))));
-            this.customButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(170)))), ((int)(((byte)(43)))));
-            this.customButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.customButton3.BorderRadius = 10;
-            this.customButton3.BorderSize = 0;
-            this.customButton3.FlatAppearance.BorderSize = 0;
-            this.customButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton3.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton3.ForeColor = System.Drawing.Color.White;
-            this.customButton3.Image = global::Invoice_App.Properties.Resources.order_history_24px;
-            this.customButton3.Location = new System.Drawing.Point(167, 258);
-            this.customButton3.Name = "customButton3";
-            this.customButton3.Size = new System.Drawing.Size(53, 53);
-            this.customButton3.TabIndex = 5;
-            this.customButton3.TextColor = System.Drawing.Color.White;
-            this.customButton3.UseVisualStyleBackColor = false;
-            // 
-            // customButton2
-            // 
-            this.customButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(61)))));
-            this.customButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(61)))));
-            this.customButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.customButton2.BorderRadius = 10;
-            this.customButton2.BorderSize = 0;
-            this.customButton2.FlatAppearance.BorderSize = 0;
-            this.customButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton2.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton2.ForeColor = System.Drawing.Color.White;
-            this.customButton2.Image = global::Invoice_App.Properties.Resources.initiate_money_transfer_24px;
-            this.customButton2.Location = new System.Drawing.Point(42, 258);
-            this.customButton2.Name = "customButton2";
-            this.customButton2.Size = new System.Drawing.Size(53, 53);
-            this.customButton2.TabIndex = 5;
-            this.customButton2.TextColor = System.Drawing.Color.White;
-            this.customButton2.UseVisualStyleBackColor = false;
-            // 
             // pictureBox11
             // 
             this.pictureBox11.Image = global::Invoice_App.Properties.Resources.mastercard_credit_card_96px;
@@ -848,6 +621,19 @@
             this.pictureBox12.Size = new System.Drawing.Size(100, 174);
             this.pictureBox12.TabIndex = 3;
             this.pictureBox12.TabStop = false;
+            // 
+            // pnlInvestments
+            // 
+            this.pnlInvestments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.pnlInvestments.Controls.Add(this.pnlInvest4);
+            this.pnlInvestments.Controls.Add(this.pnlInvest2);
+            this.pnlInvestments.Controls.Add(this.pnlInvest3);
+            this.pnlInvestments.Controls.Add(this.pnlInvest1);
+            this.pnlInvestments.Controls.Add(this.panel2);
+            this.pnlInvestments.Location = new System.Drawing.Point(50, 289);
+            this.pnlInvestments.Name = "pnlInvestments";
+            this.pnlInvestments.Size = new System.Drawing.Size(608, 346);
+            this.pnlInvestments.TabIndex = 6;
             // 
             // pnlInvest4
             // 
@@ -1005,6 +791,114 @@
             this.pictureBox7.TabIndex = 8;
             this.pictureBox7.TabStop = false;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label23);
+            this.panel2.Controls.Add(this.label22);
+            this.panel2.Controls.Add(this.label21);
+            this.panel2.Controls.Add(this.label20);
+            this.panel2.Controls.Add(this.label19);
+            this.panel2.Controls.Add(this.label18);
+            this.panel2.Controls.Add(this.label17);
+            this.panel2.Controls.Add(this.label16);
+            this.panel2.Controls.Add(this.bunifuGradientPanel4);
+            this.panel2.Controls.Add(this.bunifuGradientPanel3);
+            this.panel2.Controls.Add(this.bunifuGradientPanel2);
+            this.panel2.Controls.Add(this.bunifuGradientPanel1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(304, 346);
+            this.panel2.TabIndex = 0;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(34, 296);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(148, 23);
+            this.label23.TabIndex = 7;
+            this.label23.Text = "$9,800/$10,000";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(34, 215);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(148, 23);
+            this.label22.TabIndex = 7;
+            this.label22.Text = "$4,450/$10,000";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(33, 134);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(148, 23);
+            this.label21.TabIndex = 7;
+            this.label21.Text = "$7,802/$10,000";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(34, 53);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(148, 23);
+            this.label20.TabIndex = 7;
+            this.label20.Text = "$6,602/$10,000";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Bold);
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
+            this.label19.Location = new System.Drawing.Point(34, 269);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(46, 16);
+            this.label19.TabIndex = 4;
+            this.label19.Text = "Item 4";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Bold);
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
+            this.label18.Location = new System.Drawing.Point(34, 188);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(46, 16);
+            this.label18.TabIndex = 4;
+            this.label18.Text = "Item 3";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Bold);
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
+            this.label17.Location = new System.Drawing.Point(34, 107);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(46, 16);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Item 2";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Bold);
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
+            this.label16.Location = new System.Drawing.Point(35, 26);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(46, 16);
+            this.label16.TabIndex = 4;
+            this.label16.Text = "Item 1";
+            // 
             // bunifuGradientPanel4
             // 
             this.bunifuGradientPanel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel4.BackgroundImage")));
@@ -1061,6 +955,40 @@
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(7, 50);
             this.bunifuGradientPanel1.TabIndex = 0;
             // 
+            // pnlStats3
+            // 
+            this.pnlStats3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.pnlStats3.Controls.Add(this.label14);
+            this.pnlStats3.Controls.Add(this.label15);
+            this.pnlStats3.Controls.Add(this.pictureBox6);
+            this.pnlStats3.Controls.Add(this.cartesianChart3);
+            this.pnlStats3.Location = new System.Drawing.Point(726, 83);
+            this.pnlStats3.Name = "pnlStats3";
+            this.pnlStats3.Size = new System.Drawing.Size(269, 185);
+            this.pnlStats3.TabIndex = 3;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
+            this.label14.Location = new System.Drawing.Point(68, 41);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(86, 14);
+            this.label14.TabIndex = 11;
+            this.label14.Text = "Unpaid invoice";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(63, 5);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(98, 38);
+            this.label15.TabIndex = 10;
+            this.label15.Text = "6,496";
+            // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Invoice_App.Properties.Resources.receipt_and_change_64px1;
@@ -1070,6 +998,49 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 9;
             this.pictureBox6.TabStop = false;
+            // 
+            // cartesianChart3
+            // 
+            this.cartesianChart3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.cartesianChart3.Location = new System.Drawing.Point(0, 83);
+            this.cartesianChart3.Name = "cartesianChart3";
+            this.cartesianChart3.Size = new System.Drawing.Size(269, 102);
+            this.cartesianChart3.TabIndex = 8;
+            this.cartesianChart3.Text = "cartesianChart3";
+            // 
+            // pnlStats2
+            // 
+            this.pnlStats2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.pnlStats2.Controls.Add(this.label12);
+            this.pnlStats2.Controls.Add(this.label13);
+            this.pnlStats2.Controls.Add(this.pictureBox5);
+            this.pnlStats2.Controls.Add(this.cartesianChart2);
+            this.pnlStats2.Location = new System.Drawing.Point(388, 83);
+            this.pnlStats2.Name = "pnlStats2";
+            this.pnlStats2.Size = new System.Drawing.Size(269, 185);
+            this.pnlStats2.TabIndex = 4;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
+            this.label12.Location = new System.Drawing.Point(68, 41);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(72, 14);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "Paid invoice";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(63, 5);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(98, 38);
+            this.label13.TabIndex = 10;
+            this.label13.Text = "6,192";
             // 
             // pictureBox5
             // 
@@ -1081,6 +1052,49 @@
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
             // 
+            // cartesianChart2
+            // 
+            this.cartesianChart2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.cartesianChart2.Location = new System.Drawing.Point(0, 83);
+            this.cartesianChart2.Name = "cartesianChart2";
+            this.cartesianChart2.Size = new System.Drawing.Size(269, 102);
+            this.cartesianChart2.TabIndex = 8;
+            this.cartesianChart2.Text = "cartesianChart2";
+            // 
+            // pnlStats1
+            // 
+            this.pnlStats1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.pnlStats1.Controls.Add(this.label11);
+            this.pnlStats1.Controls.Add(this.label10);
+            this.pnlStats1.Controls.Add(this.pictureBox4);
+            this.pnlStats1.Controls.Add(this.cartesianChart1);
+            this.pnlStats1.Location = new System.Drawing.Point(50, 83);
+            this.pnlStats1.Name = "pnlStats1";
+            this.pnlStats1.Size = new System.Drawing.Size(269, 185);
+            this.pnlStats1.TabIndex = 5;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
+            this.label11.Location = new System.Drawing.Point(68, 46);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(74, 14);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "Sent invoice";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(63, 10);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(98, 38);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "6,602";
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Invoice_App.Properties.Resources.receipt_and_change_64px1;
@@ -1090,6 +1104,15 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
+            // 
+            // cartesianChart1
+            // 
+            this.cartesianChart1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.cartesianChart1.Location = new System.Drawing.Point(0, 83);
+            this.cartesianChart1.Name = "cartesianChart1";
+            this.cartesianChart1.Size = new System.Drawing.Size(269, 102);
+            this.cartesianChart1.TabIndex = 0;
+            this.cartesianChart1.Text = "cartesianChart1";
             // 
             // btnMail
             // 
@@ -1150,8 +1173,8 @@
             // 
             // btnInvoice
             // 
-            this.btnInvoice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(129)))), ((int)(((byte)(78)))));
-            this.btnInvoice.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(129)))), ((int)(((byte)(78)))));
+            this.btnInvoice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(81)))), ((int)(((byte)(247)))));
+            this.btnInvoice.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(81)))), ((int)(((byte)(247)))));
             this.btnInvoice.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btnInvoice.BorderRadius = 10;
             this.btnInvoice.BorderSize = 0;
@@ -1425,28 +1448,6 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Roboto Black", 9.25F, System.Drawing.FontStyle.Bold);
-            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.label31.Location = new System.Drawing.Point(31, 314);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(81, 15);
-            this.label31.TabIndex = 6;
-            this.label31.Text = "Send  money";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Roboto Black", 9.25F, System.Drawing.FontStyle.Bold);
-            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.label32.Location = new System.Drawing.Point(168, 314);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(50, 15);
-            this.label32.TabIndex = 6;
-            this.label32.Text = "History";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1468,12 +1469,6 @@
             this.pnlMessageNew.PerformLayout();
             this.pnlError.ResumeLayout(false);
             this.pnlError.PerformLayout();
-            this.pnlStats1.ResumeLayout(false);
-            this.pnlStats1.PerformLayout();
-            this.pnlStats2.ResumeLayout(false);
-            this.pnlStats2.PerformLayout();
-            this.pnlStats3.ResumeLayout(false);
-            this.pnlStats3.PerformLayout();
             this.pnlLeft.ResumeLayout(false);
             this.pnlLeft.PerformLayout();
             this.pnlTop.ResumeLayout(false);
@@ -1483,11 +1478,9 @@
             this.pnlCard.PerformLayout();
             this.visa.ResumeLayout(false);
             this.visa.PerformLayout();
-            this.pnlInvestments.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            this.pnlInvestments.ResumeLayout(false);
             this.pnlInvest4.ResumeLayout(false);
             this.pnlInvest4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -1500,8 +1493,16 @@
             this.pnlInvest1.ResumeLayout(false);
             this.pnlInvest1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.pnlStats3.ResumeLayout(false);
+            this.pnlStats3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.pnlStats2.ResumeLayout(false);
+            this.pnlStats2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.pnlStats1.ResumeLayout(false);
+            this.pnlStats1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

@@ -73,6 +73,16 @@ namespace Invoice_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bg_bottom_hero {
+            get {
+                object obj = ResourceManager.GetObject("bg-bottom-hero", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bg_dot {
             get {
                 object obj = ResourceManager.GetObject("bg-dot", resourceCulture);
@@ -126,6 +136,16 @@ namespace Invoice_App.Properties {
         internal static System.Drawing.Bitmap error_64px {
             get {
                 object obj = ResourceManager.GetObject("error_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap footer {
+            get {
+                object obj = ResourceManager.GetObject("footer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
