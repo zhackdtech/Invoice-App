@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Media;
 using MySql.Data.MySqlClient;
-s
 namespace Invoice_App
 {
     public partial class Form1 : Form

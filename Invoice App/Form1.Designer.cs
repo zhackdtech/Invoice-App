@@ -49,7 +49,15 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             this.pnlStats2 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.cartesianChart2 = new LiveCharts.WinForms.CartesianChart();
             this.pnlStats3 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.cartesianChart3 = new LiveCharts.WinForms.CartesianChart();
             this.bnfElipseMainform = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnlLeft = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
@@ -72,18 +80,12 @@
             this.bnfDragSidePanel = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bnfDragTopPanel = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlInvestments = new System.Windows.Forms.Panel();
+            this.bnfElipsePanel = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.btnMail = new Invoice_App.Usercontrols.CustomButton();
             this.customButton1 = new Invoice_App.Usercontrols.CustomButton();
             this.btnNotifications = new Invoice_App.Usercontrols.CustomButton();
             this.btnInvoice = new Invoice_App.Usercontrols.CustomButton();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.cartesianChart2 = new LiveCharts.WinForms.CartesianChart();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.cartesianChart3 = new LiveCharts.WinForms.CartesianChart();
             bnfRightPanelUserPanel = new Bunifu.Framework.UI.BunifuElipse(this.components);
             bnfElipsePnlMessagesNew = new Bunifu.Framework.UI.BunifuElipse(this.components);
             bnfElipsePnlErrorTransactionsError = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -97,14 +99,14 @@
             this.pnlStats1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.pnlStats2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.pnlStats3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.pnlLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // bnfRightPanelUserPanel
@@ -279,6 +281,47 @@
             this.pnlStats2.Size = new System.Drawing.Size(269, 185);
             this.pnlStats2.TabIndex = 4;
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
+            this.label12.Location = new System.Drawing.Point(68, 41);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(72, 14);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "Paid invoice";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(63, 5);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(98, 38);
+            this.label13.TabIndex = 10;
+            this.label13.Text = "6,192";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Invoice_App.Properties.Resources.receipt_and_change_64px1;
+            this.pictureBox5.Location = new System.Drawing.Point(18, 9);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(42, 42);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 9;
+            this.pictureBox5.TabStop = false;
+            // 
+            // cartesianChart2
+            // 
+            this.cartesianChart2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.cartesianChart2.Location = new System.Drawing.Point(0, 83);
+            this.cartesianChart2.Name = "cartesianChart2";
+            this.cartesianChart2.Size = new System.Drawing.Size(269, 102);
+            this.cartesianChart2.TabIndex = 8;
+            this.cartesianChart2.Text = "cartesianChart2";
+            // 
             // bnfElipsePnlStats3
             // 
             bnfElipsePnlStats3.ElipseRadius = 35;
@@ -295,6 +338,47 @@
             this.pnlStats3.Name = "pnlStats3";
             this.pnlStats3.Size = new System.Drawing.Size(269, 185);
             this.pnlStats3.TabIndex = 3;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
+            this.label14.Location = new System.Drawing.Point(68, 41);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(86, 14);
+            this.label14.TabIndex = 11;
+            this.label14.Text = "Unpaid invoice";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(63, 5);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(98, 38);
+            this.label15.TabIndex = 10;
+            this.label15.Text = "6,496";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Invoice_App.Properties.Resources.receipt_and_change_64px1;
+            this.pictureBox6.Location = new System.Drawing.Point(18, 9);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(42, 42);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 9;
+            this.pictureBox6.TabStop = false;
+            // 
+            // cartesianChart3
+            // 
+            this.cartesianChart3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.cartesianChart3.Location = new System.Drawing.Point(0, 83);
+            this.cartesianChart3.Name = "cartesianChart3";
+            this.cartesianChart3.Size = new System.Drawing.Size(269, 102);
+            this.cartesianChart3.TabIndex = 8;
+            this.cartesianChart3.Text = "cartesianChart3";
             // 
             // bnfElipseMainform
             // 
@@ -688,6 +772,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.pnlInvestments);
             this.panel1.Controls.Add(this.pnlStats3);
             this.panel1.Controls.Add(this.pnlStats2);
             this.panel1.Controls.Add(this.pnlStats1);
@@ -696,6 +781,19 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1045, 664);
             this.panel1.TabIndex = 2;
+            // 
+            // pnlInvestments
+            // 
+            this.pnlInvestments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.pnlInvestments.Location = new System.Drawing.Point(50, 289);
+            this.pnlInvestments.Name = "pnlInvestments";
+            this.pnlInvestments.Size = new System.Drawing.Size(607, 346);
+            this.pnlInvestments.TabIndex = 6;
+            // 
+            // bnfElipsePanel
+            // 
+            this.bnfElipsePanel.ElipseRadius = 35;
+            this.bnfElipsePanel.TargetControl = this.pnlInvestments;
             // 
             // btnMail
             // 
@@ -775,88 +873,6 @@
             this.btnInvoice.TextColor = System.Drawing.Color.White;
             this.btnInvoice.UseVisualStyleBackColor = false;
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
-            this.label12.Location = new System.Drawing.Point(68, 41);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(72, 14);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "Paid invoice";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(63, 5);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(98, 38);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "6,192";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Invoice_App.Properties.Resources.receipt_and_change_64px1;
-            this.pictureBox5.Location = new System.Drawing.Point(18, 9);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(42, 42);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
-            // 
-            // cartesianChart2
-            // 
-            this.cartesianChart2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.cartesianChart2.Location = new System.Drawing.Point(0, 83);
-            this.cartesianChart2.Name = "cartesianChart2";
-            this.cartesianChart2.Size = new System.Drawing.Size(269, 102);
-            this.cartesianChart2.TabIndex = 8;
-            this.cartesianChart2.Text = "cartesianChart2";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(116)))), ((int)(((byte)(121)))));
-            this.label14.Location = new System.Drawing.Point(68, 41);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(86, 14);
-            this.label14.TabIndex = 11;
-            this.label14.Text = "Unpaid invoice";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Arial Black", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(63, 5);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(98, 38);
-            this.label15.TabIndex = 10;
-            this.label15.Text = "6,496";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Invoice_App.Properties.Resources.receipt_and_change_64px1;
-            this.pictureBox6.Location = new System.Drawing.Point(18, 9);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(42, 42);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 9;
-            this.pictureBox6.TabStop = false;
-            // 
-            // cartesianChart3
-            // 
-            this.cartesianChart3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.cartesianChart3.Location = new System.Drawing.Point(0, 83);
-            this.cartesianChart3.Name = "cartesianChart3";
-            this.cartesianChart3.Size = new System.Drawing.Size(269, 102);
-            this.cartesianChart3.TabIndex = 8;
-            this.cartesianChart3.Text = "cartesianChart3";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -866,6 +882,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlTop);
             this.Controls.Add(this.pnlLeft);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -883,8 +900,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.pnlStats2.ResumeLayout(false);
             this.pnlStats2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.pnlStats3.ResumeLayout(false);
             this.pnlStats3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.pnlLeft.ResumeLayout(false);
             this.pnlLeft.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -892,8 +911,6 @@
             this.pnlTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -949,6 +966,8 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox6;
         private LiveCharts.WinForms.CartesianChart cartesianChart3;
+        private System.Windows.Forms.Panel pnlInvestments;
+        private Bunifu.Framework.UI.BunifuElipse bnfElipsePanel;
     }
 }
 
