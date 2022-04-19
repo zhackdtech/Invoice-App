@@ -63,6 +63,26 @@ namespace Invoice_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap account_96px {
+            get {
+                object obj = ResourceManager.GetObject("account_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg_dot {
+            get {
+                object obj = ResourceManager.GetObject("bg-dot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap circled_menu_64px {
             get {
                 object obj = ResourceManager.GetObject("circled_menu_64px", resourceCulture);
@@ -113,6 +133,26 @@ namespace Invoice_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap initiate_money_transfer_24px {
+            get {
+                object obj = ResourceManager.GetObject("initiate_money_transfer_24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap initiate_money_transfer_96px {
+            get {
+                object obj = ResourceManager.GetObject("initiate_money_transfer_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap invoice_16px {
             get {
                 object obj = ResourceManager.GetObject("invoice_16px", resourceCulture);
@@ -136,6 +176,16 @@ namespace Invoice_App.Properties {
         internal static System.Drawing.Bitmap invoice_28px {
             get {
                 object obj = ResourceManager.GetObject("invoice_28px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap invoice_28px1 {
+            get {
+                object obj = ResourceManager.GetObject("invoice_28px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +223,49 @@ namespace Invoice_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mastercard_credit_card_96px {
+            get {
+                object obj = ResourceManager.GetObject("mastercard_credit_card_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mastercard_logo_96px {
+            get {
+                object obj = ResourceManager.GetObject("mastercard_logo_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap money_bag_96px {
+            get {
+                object obj = ResourceManager.GetObject("money_bag_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap name_64px {
             get {
                 object obj = ResourceManager.GetObject("name_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap neutral_trading_96px {
+            get {
+                object obj = ResourceManager.GetObject("neutral_trading_96px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +293,29 @@ namespace Invoice_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap order_history_24px {
+            get {
+                object obj = ResourceManager.GetObject("order_history_24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap payment_history_64px {
             get {
                 object obj = ResourceManager.GetObject("payment_history_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap profit_96px {
+            get {
+                object obj = ResourceManager.GetObject("profit_96px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

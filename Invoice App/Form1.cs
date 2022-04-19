@@ -33,7 +33,6 @@ namespace Invoice_App
             LoadCartesianChart1(); 
             LoadCartesianChart3();
             LoadCartesianChart2();
-            LoadPieChart1();
         }
         /// <summary>
         /// function to load cartesian chart 1
@@ -100,11 +99,6 @@ namespace Invoice_App
             cartesianChart3.AxisY.Clear();
             var brush = new SolidColorBrush(System.Windows.Media.Color.FromArgb(255, (byte)(int)32, (byte)(int)32, (byte)(int)32));
             cartesianChart3.DataTooltip.Foreground = brush;
-        }
-        //load the pie chart
-        private void LoadPieChart1()
-        {
-
         }
     }
 }

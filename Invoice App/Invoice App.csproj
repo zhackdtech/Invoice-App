@@ -179,5 +179,38 @@
   <ItemGroup>
     <None Include="Resources\receipt_and_change_64px1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neutral_trading_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profit_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_bag_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mastercard_logo_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mastercard_credit_card_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg-dot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\initiate_money_transfer_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice_28px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\initiate_money_transfer_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order_history_24px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
