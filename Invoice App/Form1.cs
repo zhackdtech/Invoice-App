@@ -65,7 +65,7 @@ namespace Invoice_App
                       Stroke = new SolidColorBrush(System.Windows.Media.Color.FromArgb(255, (byte)(int)9, (byte)(int)189, (byte)(int)60)),
                       Fill = new SolidColorBrush(System.Windows.Media.Color.FromArgb(100, (byte)(int)9, (byte)(int)189, (byte)(int)60)),
                       LineSmoothness = 10,
-                      Title = "Invoice:",
+                      Title = "Paid invoice:",
                       PointGeometry = DefaultGeometries.None,
                       PointGeometrySize = 7,
                   }
@@ -87,7 +87,7 @@ namespace Invoice_App
                       Stroke = new SolidColorBrush(System.Windows.Media.Color.FromArgb(255, (byte)(int)156, (byte)(int)61, (byte)(int)61)),
                       Fill = new SolidColorBrush(System.Windows.Media.Color.FromArgb(100, (byte)(int)156, (byte)(int)61, (byte)(int)61)),
                       LineSmoothness = 10,
-                      Title = "Invoice:",
+                      Title = "Unpaid invoice:",
                       PointGeometry = DefaultGeometries.None,
                       PointGeometrySize = 7,
                   }
