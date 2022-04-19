@@ -74,6 +74,10 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlLeftShadow = new System.Windows.Forms.Panel();
             this.pnlTop = new System.Windows.Forms.Panel();
+            this.btnMail = new Invoice_App.Usercontrols.CustomButton();
+            this.customButton1 = new Invoice_App.Usercontrols.CustomButton();
+            this.btnNotifications = new Invoice_App.Usercontrols.CustomButton();
+            this.btnInvoice = new Invoice_App.Usercontrols.CustomButton();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pnlTopShadow = new System.Windows.Forms.Panel();
@@ -81,11 +85,9 @@
             this.bnfDragTopPanel = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlInvestments = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.bnfElipsePanel = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.btnMail = new Invoice_App.Usercontrols.CustomButton();
-            this.customButton1 = new Invoice_App.Usercontrols.CustomButton();
-            this.btnNotifications = new Invoice_App.Usercontrols.CustomButton();
-            this.btnInvoice = new Invoice_App.Usercontrols.CustomButton();
+            this.piechartInvestment = new LiveCharts.WinForms.PieChart();
             bnfRightPanelUserPanel = new Bunifu.Framework.UI.BunifuElipse(this.components);
             bnfElipsePnlMessagesNew = new Bunifu.Framework.UI.BunifuElipse(this.components);
             bnfElipsePnlErrorTransactionsError = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -107,6 +109,7 @@
             this.pnlTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
+            this.pnlInvestments.SuspendLayout();
             this.SuspendLayout();
             // 
             // bnfRightPanelUserPanel
@@ -726,75 +729,6 @@
             this.pnlTop.Size = new System.Drawing.Size(1045, 108);
             this.pnlTop.TabIndex = 1;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 25.25F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(81, 34);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(196, 40);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Dashboard";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Invoice_App.Properties.Resources.circled_menu_64px;
-            this.pictureBox3.Location = new System.Drawing.Point(46, 38);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pnlTopShadow
-            // 
-            this.pnlTopShadow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(117)))), ((int)(((byte)(120)))));
-            this.pnlTopShadow.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlTopShadow.Location = new System.Drawing.Point(0, 107);
-            this.pnlTopShadow.Name = "pnlTopShadow";
-            this.pnlTopShadow.Size = new System.Drawing.Size(1045, 1);
-            this.pnlTopShadow.TabIndex = 0;
-            // 
-            // bnfDragSidePanel
-            // 
-            this.bnfDragSidePanel.Fixed = true;
-            this.bnfDragSidePanel.Horizontal = true;
-            this.bnfDragSidePanel.TargetControl = this.pnlLeft;
-            this.bnfDragSidePanel.Vertical = true;
-            // 
-            // bnfDragTopPanel
-            // 
-            this.bnfDragTopPanel.Fixed = true;
-            this.bnfDragTopPanel.Horizontal = true;
-            this.bnfDragTopPanel.TargetControl = this.pnlTop;
-            this.bnfDragTopPanel.Vertical = true;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.pnlInvestments);
-            this.panel1.Controls.Add(this.pnlStats3);
-            this.panel1.Controls.Add(this.pnlStats2);
-            this.panel1.Controls.Add(this.pnlStats1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(273, 108);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1045, 664);
-            this.panel1.TabIndex = 2;
-            // 
-            // pnlInvestments
-            // 
-            this.pnlInvestments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.pnlInvestments.Location = new System.Drawing.Point(50, 289);
-            this.pnlInvestments.Name = "pnlInvestments";
-            this.pnlInvestments.Size = new System.Drawing.Size(607, 346);
-            this.pnlInvestments.TabIndex = 6;
-            // 
-            // bnfElipsePanel
-            // 
-            this.bnfElipsePanel.ElipseRadius = 35;
-            this.bnfElipsePanel.TargetControl = this.pnlInvestments;
-            // 
             // btnMail
             // 
             this.btnMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
@@ -873,6 +807,94 @@
             this.btnInvoice.TextColor = System.Drawing.Color.White;
             this.btnInvoice.UseVisualStyleBackColor = false;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 25.25F, System.Drawing.FontStyle.Bold);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(81, 34);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(196, 40);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Dashboard";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Invoice_App.Properties.Resources.circled_menu_64px;
+            this.pictureBox3.Location = new System.Drawing.Point(46, 38);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pnlTopShadow
+            // 
+            this.pnlTopShadow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(117)))), ((int)(((byte)(120)))));
+            this.pnlTopShadow.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlTopShadow.Location = new System.Drawing.Point(0, 107);
+            this.pnlTopShadow.Name = "pnlTopShadow";
+            this.pnlTopShadow.Size = new System.Drawing.Size(1045, 1);
+            this.pnlTopShadow.TabIndex = 0;
+            // 
+            // bnfDragSidePanel
+            // 
+            this.bnfDragSidePanel.Fixed = true;
+            this.bnfDragSidePanel.Horizontal = true;
+            this.bnfDragSidePanel.TargetControl = this.pnlLeft;
+            this.bnfDragSidePanel.Vertical = true;
+            // 
+            // bnfDragTopPanel
+            // 
+            this.bnfDragTopPanel.Fixed = true;
+            this.bnfDragTopPanel.Horizontal = true;
+            this.bnfDragTopPanel.TargetControl = this.pnlTop;
+            this.bnfDragTopPanel.Vertical = true;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pnlInvestments);
+            this.panel1.Controls.Add(this.pnlStats3);
+            this.panel1.Controls.Add(this.pnlStats2);
+            this.panel1.Controls.Add(this.pnlStats1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(273, 108);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1045, 664);
+            this.panel1.TabIndex = 2;
+            // 
+            // pnlInvestments
+            // 
+            this.pnlInvestments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.pnlInvestments.Controls.Add(this.piechartInvestment);
+            this.pnlInvestments.Controls.Add(this.panel2);
+            this.pnlInvestments.Location = new System.Drawing.Point(50, 289);
+            this.pnlInvestments.Name = "pnlInvestments";
+            this.pnlInvestments.Size = new System.Drawing.Size(608, 346);
+            this.pnlInvestments.TabIndex = 6;
+            // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(304, 346);
+            this.panel2.TabIndex = 0;
+            // 
+            // bnfElipsePanel
+            // 
+            this.bnfElipsePanel.ElipseRadius = 35;
+            this.bnfElipsePanel.TargetControl = this.pnlInvestments;
+            // 
+            // piechartInvestment
+            // 
+            this.piechartInvestment.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.piechartInvestment.Location = new System.Drawing.Point(304, 0);
+            this.piechartInvestment.Name = "piechartInvestment";
+            this.piechartInvestment.Size = new System.Drawing.Size(304, 346);
+            this.piechartInvestment.TabIndex = 1;
+            this.piechartInvestment.Text = "pieChart1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -911,6 +933,7 @@
             this.pnlTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.pnlInvestments.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -968,6 +991,8 @@
         private LiveCharts.WinForms.CartesianChart cartesianChart3;
         private System.Windows.Forms.Panel pnlInvestments;
         private Bunifu.Framework.UI.BunifuElipse bnfElipsePanel;
+        private System.Windows.Forms.Panel panel2;
+        private LiveCharts.WinForms.PieChart piechartInvestment;
     }
 }
 
