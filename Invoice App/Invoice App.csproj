@@ -77,12 +77,6 @@
     <Compile Include="Usercontrols\CustomButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Usercontrols\UserPanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Usercontrols\UserPanel.Designer.cs">
-      <DependentUpon>UserPanel.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,9 +90,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Usercontrols\UserPanel.resx">
-      <DependentUpon>UserPanel.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
