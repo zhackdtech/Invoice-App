@@ -10,7 +10,7 @@ Invoice App Dashboard is a sample user interface that would introduce beginners 
 
 
 ## 🚀 About Me
-I am Wilmarx John D. Cayabyab, that's it.
+I am... me?
 
 
 
